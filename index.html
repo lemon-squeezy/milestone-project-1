@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smooth Scroll Landing Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-        <a class="navbar-brand" href="#"><img src="images/Logo.jpg"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+        <a class="navbar-brand" href="#home"><img src="images/Logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -28,12 +32,13 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#service">Service</a>
+                    <a class="nav-link" href="#skills">My Skills</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
+            <ul><li><a href="GER_index.html" class="language uppercase">GER</a></li></ul>
 
         </div>
     </nav>
@@ -42,24 +47,94 @@
     <div class="row container-fluid no-gutters">
 
         <section id="home" class="row no-gutters">
-            <h1 class="display-3">Design adds value faster than it adds costs.</h1>
-            <p class="lead">Joel Spolsky, web programmer, writer, and creator of Trello.</p>
+            <div class="container col-6 align-items-center">
+                <h1 class="display-4">Design adds value faster than it adds costs.</h1>
+                <p class="lead">Joel Spolsky, web programmer, writer, and creator of Trello.</p>
+                <img src="images/al-logo.png">
+                <h2>Adrian Laub - Design & Web Development</h2>
+
+            </div>
         </section>
+
         <section id="about" class="row no-gutters">
-            <h1>About!</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod id facere eaque numquam ducimus veritatis.</p>
+            <div class="container col-6">
+                <h1 class="text-uppercase">About me</h1>
+                <h3 class="text-uppercase"><strong>What do I do?</strong></h3>
+                <p>I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
+                <p>I specialise in HTML, CSS, JavaScript, and Python languages, using Django and Flask frameworks. Passionate about creating a positive user experience, I enjoy working with and adapting to technologies as they develop.</p>
+                <h3 class="text-uppercase"><strong>How do I do it?</strong></h3>
+                <p>I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.</p>
+                <h3 class="text-uppercase"><strong>Why hire me?</strong></h3>
+                <p>I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.</p>
+            </div>
         </section>
-        <section id="service" class="row no-gutters">
-            <h1>Service</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod id facere eaque numquam ducimus veritatis.</p>
+
+        <section id="skills" class="row no-gutters">
+            <div class="container col-md-6">
+                <h1 class="text-uppercase">My Skills</h1>
+                <h3 class="text-uppercase">Front End</h3>
+                <p>I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. I also have extensive experience in Front End Frameworks such as Angular and React.</p>
+                <h3 class="text uppercase">Back End</h3>
+                <p>I specialize in data-driven web applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.</p>
+                <div class="row progress-section">
+                    <div class="col">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                                <span class="sr-only">90% complete</span>
+                            </div>
+                            <span class="progress-type">HTML / HTML5</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                            <span class="progress-type">CSS / CSS3</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                                <span class="sr-only">70% complete</span>
+                            </div>
+                            <span class="progress-type">JavaScript / jQuery</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                            <span class="progress-type">Django / Python</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                            <span class="progress-type">SQL / NoSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <section id="contact" class="row no-gutters">
-            <h1>Contact</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod id facere eaque numquam ducimus veritatis.</p>
+            <div class="container col-md-6">
+                <h1 class="text-uppercase">Contact</h1>
+                <p>Would you like to work with me?</p>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="What do you want to know?" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
+
         <footer class="footer">
-            <div class="footerbar col-12">
-                <ul class="list-inline social-links">
+            <div class="footerbar col-12 text-center">
+                <ul class="list-inline social-links center">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
