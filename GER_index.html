@@ -19,6 +19,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
         <a class="navbar-brand" href="#home"><img src="images/Logo.jpg"></a>
+        <button class="btn btn-sm align-middle btn-primary ml-auto mr-3 order-lg-last" type="button" onclick="window.location.href = 'index.html';">English</button>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +38,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li><a href="index.html" class="language uppercase">EN</a></li>
             </ul>
 
         </div>
@@ -48,8 +48,8 @@
 
         <section id="home" class="row no-gutters">
             <div class="container col-6 align-items-center">
-                <h1 class="display-4">Design adds value faster than it adds costs.</h1>
-                <p class="lead">Joel Spolsky, web programmer, writer, and creator of Trello.</p>
+                <h1 class="display-4">Design schafft schneller Mehrwert als Kosten.</h1>
+                <p class="lead">Joel Spolsky, Web Programmierer, Author und Entwickler von Trello.</p>
                 <img src="images/al-logo.png">
                 <h2>Adrian Laub - Design & Web Development</h2>
 
@@ -58,24 +58,31 @@
 
         <section id="about" class="row no-gutters">
             <div class="container col-6">
-                <h1 class="text-uppercase">About me</h1>
-                <h3 class="text-uppercase"><strong>What do I do?</strong></h3>
-                <p>I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.</p>
-                <p>I specialise in HTML, CSS, JavaScript, and Python languages, using Django and Flask frameworks. Passionate about creating a positive user experience, I enjoy working with and adapting to technologies as they develop.</p>
-                <h3 class="text-uppercase"><strong>How do I do it?</strong></h3>
-                <p>I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.</p>
-                <h3 class="text-uppercase"><strong>Why hire me?</strong></h3>
-                <p>I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.</p>
+                <h1 class="text-uppercase">Über mich</h1>
+                <h3 class="text-uppercase"><strong>Wer ich bin</strong></h3>
+                <p>Hey! Ich heiße Adrian, bin 29, lebe in Berlin und arbeite als Mediengestalter mit Leib und Seele. Seit 2018 arbeite ich als freiberuflicher Mediengestalter und spezialisiere mich gerade auf Web Design. Ich bin erfahren in HTML, CSS und
+                    Javascript.</p>
+                <h3 class="text-uppercase"><strong>Wie ich arbeite</strong></h3>
+                <p>Von der Ideenfindung bis zur Produktion und Qualitätskontrolle stehe ich dir während des gesammten Projekts zur Seite.</p>
+                <h3 class="text-uppercase"><strong>Warum Du mich beauftagen solltest</strong></h3>
+                <p>Ich arbeite schnell und effektiv und doch gewissenhaft. Ob alleine oder in einem Team, ich passe mich stets der gegebenen Situtation an.</p>
+                <h3>
+                    Hier findest du meinen Lebenslauf als PDF.
+                    <a href="assets/CV.pdff" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </h3>
             </div>
         </section>
 
         <section id="skills" class="row no-gutters">
             <div class="container col-md-6">
-                <h1 class="text-uppercase">My Skills</h1>
+                <h1 class="text-uppercase">Meine Skills</h1>
                 <h3 class="text-uppercase">Front End</h3>
-                <p>I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. I also have extensive experience in Front End Frameworks such as Angular and React.</p>
-                <h3 class="text uppercase">Back End</h3>
-                <p>I specialize in data-driven web applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.</p>
+                <p>Ich bin erfahren in Bereichen des User Experience Design und weiß die Macht von HTML / CSS und Javascript zu schätzen. Ich arbeite auch gerne mit Front-End-Frameworks wie Angular und React.</p>
+                <h3 class="text-uppercase">Back End</h3>
+                <p>Ich bin auf datengesteuerte Webanwendungen spezialisiert. Um meine Informationen zu verarbeiten oder zu präsentieren benutze ich gerne Python und Django in Verbindung mit MongoDB.</p>
                 <div class="row progress-section">
                     <div class="col">
                         <div class="progress">
@@ -115,16 +122,16 @@
 
         <section id="contact" class="row no-gutters">
             <div class="container col-md-6">
-                <h1 class="text-uppercase">Contact</h1>
-                <p>Would you like to work with me?</p>
+                <h1 class="text-uppercase">Kontakt</h1>
+                <p>Möchtest du mit mir zusammen arbeiten?</p>
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="What do you want to know?" required></textarea>
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Was möchtest du wissen?" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                <button type="submit" class="btn btn-secondary">Sende Anfrage</button>
                             </div>
                         </div>
                     </form>
@@ -136,37 +143,37 @@
             <div class="footerbar col-12 text-center">
                 <ul class="list-inline social-links center">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/adrian.laub.7">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
+                        <a target="_blank" href="https://soundcloud.com/adrian-laub">
+                            <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                            <span class="sr-only">SoundCloud</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.linkedin.com/in/adrian-laub-27a446b6/">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.pinterest.de/adrianlaub/">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
                             <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/adrian_laub/?hl=de">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCRiX0gN1z02olL6kpF_gjSg/playlists?view_as=subscriber">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
