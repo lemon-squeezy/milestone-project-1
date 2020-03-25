@@ -24,10 +24,7 @@ body {
   padding: 0;
 }
 
-.lead {
-  font-size: 1.5rem;
-}
-
+/*----------NAVBAR---------*/
 .navbar {
   background: rgba(0, 0, 0, 0.7);
   border-bottom: 2px solid #FFF;
@@ -53,7 +50,12 @@ body {
 .btn-primary {
     color: #343a40;
     background-color: #fff;
-    border-color: #007bff;
+    border-color: #000;
+}
+.btn-primary:hover {
+    color: #343a40;
+    background-color: #FF745C;
+    border-color: #fff;
 }
 
 section {
@@ -73,6 +75,10 @@ section h1 {
   font-size: 3.5rem;
   margin-top: 15px;
 }
+
+.lead {
+  font-size: 1.5rem;
+}
 .display-4 {
     font-size: 2.5rem;
     margin-top: 60px;
@@ -87,7 +93,7 @@ section p {
   text-shadow: 1px 1px 5px #000;
 }
 
-/* Section Images */
+/*-----Section Images-----*/
 
 #home {
   background: url('images/color-bg2.jpg') no-repeat center center/cover;
@@ -111,6 +117,7 @@ section p {
   border-bottom: solid 2px;
 }
 
+/*----------PROGRESS BAR---------*/
 .progress {
   position: relative;
   height: 25px;
@@ -127,8 +134,13 @@ section p {
 
 }
 
+/*----------CONTACT SECTION---------*/
 #contact {
   background: url('images/color-bg1.jpg') no-repeat center center/cover;
+}
+
+#contact p{
+  font-size: 1.5rem;
 }
 
 .contact-heading {
@@ -144,17 +156,14 @@ section p {
   max-width: 70%;
 }
 
-
-
 button[type="submit"] {
   margin-top: 15px;
   margin-bottom: 20px;
   color: #fafafa;
-  background-color: #e84610;
+  background-color: #191919;
 }
 
 /*-----------FOOTER AREA----------*/
-
 footer {
   position: fixed;
   bottom: 0;
@@ -183,7 +192,7 @@ footer {
 }
 
 .footerbar ul li a:hover {
-  color: skyblue;
+  color: #FF745C;
 }
 
 /*-----------MEDIA QUERIES----------*/
