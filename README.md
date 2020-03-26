@@ -32,6 +32,8 @@ The user gets some information about me and is referred to a download link of my
 In this section, the user sees my skills, these are graphically displayed with the progress bar.
 * Contact
 The user can use the contact form to write to me.
+* Footer
+The user has the opportunity to connect with me on social media platforms.
 
 ### Features Left to Implement
 In the future, I would like to add a work section where I can show my newest project.
