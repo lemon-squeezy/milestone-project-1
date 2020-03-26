@@ -4,9 +4,9 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 This is my very first portfolio website to test my new skills and to draw attention to potential clients.
 My website should give a short impression of myself and offer a contact possibility. Since I live and work in Germany, the website should also be displayed in German.
 
-#Team
-Author - Adrian Laub
-Mentor - Rhey Ann Magcalas
+# Team
+* Author - Adrian Laub
+* Mentor - Rhey Ann Magcalas
 
 ## Demo
 You can find the live demo [here](https://lemon-squeezy.github.io/milestone-project-1/).
