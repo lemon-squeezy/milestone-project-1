@@ -30,6 +30,7 @@ body {
   border-bottom: 2px solid #FFF;
   width: 100%;
   padding: 0;
+  position: fixed;
 }
 
 .navbar-brand img {
