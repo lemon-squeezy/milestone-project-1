@@ -25,7 +25,7 @@ body {
 }
 
 /*----------NAVBAR---------*/
-.navbar {
+.navbar.navbar-expand-lg.sticky-top {
   background: rgba(0, 0, 0, 0.7)!important;
   border-bottom: 2px solid #FFF;
   width: 100%;
@@ -51,12 +51,12 @@ body {
   margin-right: 10px;
 }
 
-.btn-primary {
+.btn-primary, .btn-secondary {
     color: #343a40;
     background-color: #fff;
     border-color: #000;
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-secondary:hover {
     color: #343a40;
     background-color: #FF745C;
     border-color: #fff;
