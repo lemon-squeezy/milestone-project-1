@@ -16,9 +16,7 @@
 
     <body>
         <!--********STICKY NAVBAR********-->
-        <div id="progressbar"></div>
-        <div id="scrollPath"></div>
-        <nav class="navbar navbar-expand-lg sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <a class="navbar-brand" href="#home"><img src="images/Logo.jpg" /></a>
             <button class="btn btn-sm align-middle btn-primary ml-auto mr-3 order-lg-last" type="button" onclick="window.location.href = 'GER_index.html';">German</button>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +80,7 @@
 
             <!--*******SKILLS SECTION*******-->
             <section id="skills" class="row no-gutters">
-                <div class="container col-md-6 mt-n5">
+                <div class="container col-md-6 mt-n5 extra-margin">
                     <h1 class="text-uppercase">My Skills</h1>
                     <h3 class="text-uppercase">Front End</h3>
                     <p>I am experienced in areas of user experience design and appreciate the power of HTML / CSS and Javascript. I also enjoy working with front-end frameworks like Angular and React.</p>
@@ -187,13 +185,5 @@
                 </ul>
             </div>
         </footer>
-         <script type="text/javascript">
-            let progress = document.getElementById('progressbar');
-            let totalHeight = document.body.scrollHeight - window.innerHeight;
-            window.onscroll = function(){
-                let progressHeight = (window.pageYOffset / totalHeight) * 100;
-                progress.style.height = progressHeight + "%";
-            }
-        </script>
     </body>
 </html>
