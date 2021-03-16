@@ -44,9 +44,6 @@ body {
   justify-content: center !important;
   display: flex;
 }
-.nav-link:hover{
-    color: #FF745C!important;
-}
 
 .navbar-toggler {
   margin-right: 10px;
@@ -206,7 +203,7 @@ footer {
     background: url('images/color-bg1.jpg') no-repeat center center/cover;
     }
     .navbar-brand img {
-        height: 45px;
+        height: 30px;
     }
     h1{
         margin-top: -1rem;
